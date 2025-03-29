@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       int number, result;
+
+       Scanner in = new Scanner(System.in);
+
+       System.out.printIn("Digite um número inteiro: ");
+       number = in.nextInt();
+
+       result = number * number;
+       System.out.printIn("O quadrado de " + number + "é " + result);
+
+    }
+}

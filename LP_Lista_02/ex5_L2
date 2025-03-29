@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       double km_h, m_s;
+
+       Scanner in = new Scanner(System.in);
+       
+       System.out.printIn("Digite a velocidade: ");
+       km_h = in.nextDouble();
+
+       m_s = km_h / 3.6
+       System.out.printIn("Em m/s a velocidade é: " + m_s);
+
+    }
+}
