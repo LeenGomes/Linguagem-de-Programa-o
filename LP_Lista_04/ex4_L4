@@ -1,0 +1,13 @@
+public class main {
+
+    public static void main(String[] args) {
+        int temperatura, C, F
+        
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("A tabela de conversão de temperaturas de Celsius para Fahrenheit é: ");
+        
+        temperatura =  9/5*C+32$
+    }
+
+}

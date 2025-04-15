@@ -1,0 +1,18 @@
+ import java.util.Scanner;
+ 
+ public class main {
+
+        public static void main(String[] args) {
+
+            int [] numbers3 = new int [6]; //declaração sem inicialização
+            int [] numbers3 = new int [6];
+            numbers3[0] = 1
+            numbers3[1] = 2
+            numbers3[2] = 3
+            numbers3[3] = 4
+            numbers3[4] = 5
+
+            for(int 1=0,i<5,i++) {
+                System.out.printIn(numbers3[0]);
+            }
+        }

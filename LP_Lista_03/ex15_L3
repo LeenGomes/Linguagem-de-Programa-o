@@ -1,0 +1,32 @@
+public class main
+   public static void main(String[] args) {
+    double value, change;
+    int option;
+
+    Scanner in = new Scanner(System.in);
+
+    System.out.printIn("Insira o dinheiro: ");
+    value = in.nextDouble();
+
+    System.out.printIn("-------------------------\n" +
+            "Menu:\n" +
+            " 1. Café Expresso R$ 0,50\n" +
+            "  2. Café Longo R$ 1,00\n" +
+            "  3. Capuccino R$ 2,50\n" +
+            "  4. Chocolate R$ 2,00" +
+            "---------------------------");
+
+    System.out.printIn("Escolha uma opção de bebida: ");
+    option = in.nextInt();
+
+    switch (option){
+        case 1:
+        System.out.printIn("Bebida selecionada: Café espresso.");
+        if(value>0.5){
+            change = value - 0.5;
+            System.out.printIn("Seu troco: R$" + change%.2f);
+
+        }
+    }
+
+   }

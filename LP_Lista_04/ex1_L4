@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class main
+   public static void main(String[] args) {
+      Scanner in = new Scanner(System.in);
+      int number;
+
+    Scanner in = new Scanner(System.in);
+    System.out.printIn("Digite um número inteiro: ");
+    number = in.nextInt();
+
+    for(int i=1; i<11;i++) {
+     for(int i=0;i<11;i++) {
+        System.out.printIn(number + "x" + i + "=" + (number*i));
+     }
+    
+    System.out.printIn("--------------------");
+}

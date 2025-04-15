@@ -1,0 +1,13 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int 
+        Scanner in = new Scanner(System.in);
+    
+        System.out.println("Os números positivos divisíveis por 4 e menores que 200 são:");
+
+        for (int i/4; i<200; i++4) {
+            System.out.print(i + " ");
+        }
+    }
+}
