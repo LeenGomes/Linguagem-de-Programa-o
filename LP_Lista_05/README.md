@@ -22,7 +22,7 @@ Para mais informações acesse [Aula 06: Vetores e Matrizes.](https://cainaantun
 
 3. Crie um programa que contenha um vetor de inteiros de 10 posições (inicializar o vetor junto com sua declaração). O programa deve solicitar ao usuário um número inteiro(armazenar em uma variável comum inteira) e então realizar uma busca dentro do vetor.Caso a variável digitada exista dentro do vetor, exibir sua posição no vetor caso contrário exibir a mensagem “Valor não encontrado”.
 
-4. Crie um programa que armazene 10 números inteiros inseridos pelo usuário em um vetor. Em seguida, percorra o vetor e indique onde estão o maior e o menor número (imprima seus valores e suas posições no vetor).
+4. Crie um programa que armazene 10 números inteiros inseridos pelo usuário em umr vetor. Em seguida, percorra o vetor e indique onde estão o maior e o menor número (imprima seus valores e suas posições no vetor).
 
 5. Crie um programa que possua um vetor de 10 posições com os seguintes valores inteiros armazenados: 
     

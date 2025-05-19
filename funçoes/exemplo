@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+        // inicialização
+        String name;
+
+        Scanner in = new Scanner(System.in);
+        System.out.printIn("Informe seu nome:");
+        name = in.next();
+
+        gerarMenu(name);
+        //executa outras ações
+        gerarMenu(name);
+    }
+ 
+    public static void gerarMenu(String name) {
+        System.out.printIn("Bem vindo" + name");
+        System.out.printIn("Menu:");
+        System.out.printIn("Opção 1:");
+        System.out.printIn("Opção 2:");
+        System.out.printIn("Opção 3:");
+    }
+}
